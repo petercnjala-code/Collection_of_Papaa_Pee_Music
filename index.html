@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Papaa Pee | Legendary Music</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #fdfdfd;
+      background: url('papaa_pee.jpg') no-repeat center center fixed;
+      background-size: cover;
+      position: relative;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0,0,0,0.1); /* faint overlay */
+      z-index: -1;
+    }
+    header {
+      background: linear-gradient(90deg, #ff512f, #dd2476);
+      color: white;
+      padding: 40px;
+      text-align: center;
+      font-size: 1.5em;
+      letter-spacing: 2px;
+    }
+    header img {
+      width: 150px;
+      border-radius: 50%;
+      margin-top: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    }
+    nav {
+      background: #111;
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      color: #ffcc00;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #00ffcc;
+    }
+    main {
+      padding: 30px;
+    }
+    section {
+      margin-bottom: 40px;
+      background: rgba(255,255,255,0.1);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    h2 {
+      color: #ffcc00;
+      border-bottom: 2px solid #00ffcc;
+      padding-bottom: 10px;
+    }
+    footer {
+      background: #111;
+      color: #aaa;
+      text-align: center;
+      padding: 15px;
+    }
+    .song-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .song-card {
+      background: rgba(255,255,255,0.1);
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      text-align: center;
+    }
+    .song-card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+    .song-card h4 {
+      color: #ffcc00;
+      margin: 5px 0;
+    }
+    .share-buttons a {
+      margin: 0 10px;
+      color: #00ffcc;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .share-buttons a:hover {
+      color: #ffcc00;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Papaa Pee</h1>
+    <p>Legendary Afrobeat Storytelling & Environmental Vision</p>
+    <img src="papaa_pee.jpg" alt="Papaa Pee portrait">
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#inspiration">Inspiration</a>
+    <a href="#projects">Projects</a>
+    <a href="#music">Music</a>
+    <a href="#lyrics">Lyrics</a>
+    <a href="#media">Media</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Papaa Pee</h2>
+      <p>Papaa Pee is a Malawian artist blending Afrobeat rhythms with cultural storytelling. At 52, he continues to inspire through music and environmental studies, working as a Quality Assurance Technician at MBS.</p>
+    </section>
+
+    <section id="inspiration">
+      <h2>Musical Inspiration</h2>
+      <p>Influenced by legends like Bob Marley and Fela Kuti, Papaa Pee’s music carries messages of resilience, love, and community.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>From geospatial analysis to songwriting, Papaa Pee merges science and art. His projects highlight environmental awareness while celebrating African rhythms.</p>
+    </section>
+
+    <section id="music">
+      <h2>Featured Songs</h2>
+      <div class="song-grid">
+        <div class="song-card">
+          <img src="papaa_pee.jpg" alt="Mkamwini cover">
+          <h4>Mkamwini</h4>
+          <p>Afrobeat • 2024</p>
+        </div>
+        <div class="song-card">
+          <img src="papaa_pee.jpg" alt="Mundikhulukile cover">
+          <h4>Mundikhulukile</h4>
+          <p>Reggae • 2020</p>
+        </div>
+        <div class="song-card">
+          <img src="papaa_pee.jpg" alt="Anakufunila Zabwino cover">
+          <h4>Anakufunila Zabwino</h4>
+          <p>Gospel • 2024</p>
+        </div>
+        <div class="song-card">
+          <img src="papaa_pee.jpg" alt="Moyo cover">
+          <h4>Moyo</h4>
+          <p>Afrobeat • 2017</p>
+        </div>
+        <div class="song-card">
+          <img src="papaa_pee.jpg" alt="Chikondi cover">
+          <h4>Chikondi</h4>
+          <p>Afrobeat • 2021</p>
+        </div>
+        <div class="song-card">
+          <img src="papaa_pee.jpg" alt="Zikomo cover">
+          <h4>Zikomo</h4>
+          <p>Gospel • 2023</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="lyrics">
+      <h2>Lyrics Showcase</h2>
+      <p>Each song carries verses that echo cultural truths and personal journeys. Lyrics blend Chichewa storytelling with Afrobeat rhythm.</p>
+    </section>
+
+    <section id="media">
+      <h2>Media & Performances</h2>
+      <p>Catch Papaa Pee on YouTube, SoundCloud, and live performances across Malawi. His stage presence is legendary, combining rhythm and message.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: papaapee@gmail.com</p>
+      <p>Follow me: 
+        <a href="https://web.facebook.com/?utm_source=copilot.com&_rdc=1&_rdr#" target="_blank">Facebook</a> | 
+        <a href="https://instagram.com/papaapee" target="_blank">Instagram</a> | 
+        <a href="https://youtube.com/@papaapee" target="_blank">YouTube</a> | 
+        <a href="https://soundcloud.com/papaa-njala-pee" target="_blank">SoundCloud</a>
+      </p>
+      <div class="share-buttons">
+        <p>Share this page:</p>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://petercnjala-code.github.io/Collection_of_Papaa_Pee_Music/" target="_blank">Facebook</a>
+        <a href="https://twitter.com/intent/tweet?url=https://petercnjala-code.github.io/Collection_of_Papaa_Pee_Music/&text=Check%20out%20Papaa%20Pee!" target="_blank">Twitter</a>
+        <a href="https://wa.me/?text=Check%20out%20Papaa%20Pee!%20https://petercnjala-code.github.io/Collection_of_Papaa_Pee_Music/" target="_blank">WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Papaa Pee | Legendary Music</p>
+  </footer>
+</body>
+</html>
