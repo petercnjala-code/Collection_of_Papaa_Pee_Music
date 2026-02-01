@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Papaa Pee | Music & Creativity</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #fdfdfd;
+      background: url('papaa_pee.png') no-repeat center center fixed;
+      background-size: cover;
+      position: relative;
+    }
+
+    /* Overlay for faint transparency */
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0,0,0,0.1); /* 10% transparent overlay */
+      z-index: -1;
+    }
+
+    header {
+      background: linear-gradient(90deg, #ff512f, #dd2476);
+      color: white;
+      padding: 40px;
+      text-align: center;
+      font-size: 1.5em;
+      letter-spacing: 2px;
+    }
+    nav {
+      background: #111;
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      color: #ffcc00;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #00ffcc;
+    }
+    main {
+      padding: 30px;
+    }
+    section {
+      margin-bottom: 40px;
+      background: rgba(255,255,255,0.1);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    h2 {
+      color: #ffcc00;
+      border-bottom: 2px solid #00ffcc;
+      padding-bottom: 10px;
+    }
+    footer {
+      background: #111;
+      color: #aaa;
+      text-align: center;
+      padding: 15px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    .song-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .song-card {
+      background: rgba(255,255,255,0.1);
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      text-align: center;
+    }
+    .song-card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+    .song-card h4 {
+      color: #ffcc00;
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Papaa Pee</h1>
+    <p>Writing, Rhythm, and Environmental Vision</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#music">Music</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p><strong>Name:</strong> Papaa Pee</p>
+      <p><strong>Age:</strong> 52</p>
+      <p><strong>Study/Work:</strong> Environmental Studies / Quality Assurance at MBS</p>
+      <p><strong>Hobby:</strong> Writing & Composing Songs</p>
+      <p><em>A creative force blending Afrobeat storytelling with environmental insight. With roots in Malawi and a passion for geospatial analysis, Papaa Pee channels rhythm and reason into every verse and every project.</em></p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>Exploring geospatial analysis, environmental studies, and digital workflows — blending science with creativity.</p>
+      <p>From composing songs that echo cultural truths to refining digital workflows, this is a space where music meets mission.</p>
+    </section>
+
+    <section id="music">
+      <h2>Musical Inspiration</h2>
+      <p>Inspired by legends like Bob Marley and Fela Kuti, my songwriting blends Afrobeat rhythms with cultural storytelling.</p>
+      <p><em>"One good thing about music, when it hits you, you feel no pain." – Bob Marley</em></p>
+
+      <h3>Featured Songs</h3>
+      <div class="song-grid">
+        <div class="song-card">
+          <img src="papaa_pee.png" alt="Mkamwini cover">
+          <h4>Mkamwini</h4>
+          <p>Afrobeat • 2024</p>
+        </div>
+        <div class="song-card">
+          <img src="papaa_pee.png" alt="Mundikhulukile cover">
+          <h4>Mundikhulukile</h4>
+          <p>Reggae • 2020</p>
+        </div>
+        <div class="song-card">
+          <img src="papaa_pee.png" alt="Anakufunila Zabwino cover">
+          <h4>Anakufunila Zabwino</h4>
+          <p>Gospel • 2024</p>
+        </div>
+        <div class="song-card">
+          <img src="papaa_pee.png" alt="Moyo cover">
+          <h4>Moyo</h4>
+          <p>Afrobeat • 2017</p>
+        </div>
+        <div class="song-card">
+          <img src="papaa_pee.png" alt="Chikondi cover">
+          <h4>Chikondi</h4>
+          <p>Afrobeat • 2021</p>
+        </div>
+        <div class="song-card">
+          <img src="papaa_pee.png" alt="Zikomo cover">
+          <h4>Zikomo</h4>
+          <p>Gospel • 2023</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: papaapee@gmail.com</p>
+      <p>Follow me: 
+        <a href="https://facebook.com/papaapee" target="_blank">Facebook</a> | 
+        <a href="https://instagram.com/papaapee" target="_blank">Instagram</a> | 
+        <a href="https://youtube.com/@papaapee" target="_blank">YouTube</a> | 
+        <a href="https://soundcloud.com/papaa-njala-pee" target="_blank">SoundCloud</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Papaa Pee | Music & Creativity</p>
+  </footer>
+</body>
+</html>
